@@ -1,0 +1,10 @@
+.TodoCounter {
+    @apply flex justify-center text-2xl text-center m-0 p-12 font-Montserrat font-bold;
+}
+
+/* .TodoCounter {
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+    padding: 48px;
+} */

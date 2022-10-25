@@ -1,13 +1,24 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'ONE PIECE';
+  src: url('../public/font/OnePieceFont.ttf');
+
+  font-family: 'James Stroker';
+  src: url('../public/font/JamesStroker.ttf');
+
+  font-family: 'Montserrat';
+  src: url('../public/font/Montserrat.ttf');
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* body {
+  @apply m-0 p-0 bg-[#F2F4F5] text-[#1E1E1F] font-Montserrat;
+} */
+
+#root {
+  margin: 0 24px;
+  position: relative;
+  min-height: 100vh;
 }

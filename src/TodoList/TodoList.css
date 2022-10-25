@@ -1,0 +1,9 @@
+ul{
+  @apply
+  m-0 pb-14 list-none
+}
+/* ul {
+    margin: 0;
+    padding: 0 0 56px 0;
+    list-style: none;
+  } */

@@ -1,0 +1,89 @@
+.TodoItem {
+  @apply
+  bg-[#FAFAFA] relative flex justify-center items-center mt-6 shadow-TodoItem
+}
+
+.TodoItem-p {
+  @apply
+  mt-6 mr-0 mb-6 ml-6 w-11/12 text-lg leading-6 font-normal
+}
+
+.TodoItem-p--complete {
+  @apply
+  line-through
+}
+
+.Icon {
+  @apply
+  cursor-pointer flex justify-center items-center h-12 w-12 text-2xl font-bold
+  transition transition-all duration-300
+  
+  hover:text-4xl hover:text-4xl
+  /* background-color: #CCC; */
+}
+
+.Icon-check {
+  @apply
+  absolute left-3
+}
+.Icon-check--active {
+  @apply text-green-500
+}
+
+.Icon-delete {
+  @apply
+  absolute top-[-24px] right-0
+}
+.Icon-delete {
+  @apply
+  hover:text-red-500 
+}
+/* .TodoItem {
+    background-color: #FAFAFA;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+    box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.15);
+  }
+  
+  .TodoItem-p {
+    margin: 24px 0 24px 24px;
+    width: calc(100% - 120px);
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+  }
+  .TodoItem-p--complete {
+    text-decoration: line-through;
+  }
+  
+  .Icon {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    width: 48px;
+    font-size: 24px;
+    font-weight: bold;
+    /* background-color: #CCC; *
+  }
+  
+  .Icon-check {
+    position: absolute;
+    left: 12px;
+  }
+  .Icon-check--active {
+    color: #4caf50;
+  }
+  
+  .Icon-delete {
+    position: absolute;
+    top: -24px;
+    right: 0;
+  }
+  .Icon-delete:hover {
+    color: red;
+  } */

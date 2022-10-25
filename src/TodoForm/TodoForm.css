@@ -1,0 +1,121 @@
+form{
+  @apply
+  w-11/12 max-w-md bg-[#ffff] pt-8 pr-10 pb-8 pl-10 flex justify-center items-center flex-col
+}
+label{
+  @apply
+  text-center font-bold text-xl text-[#1E1E1F]
+}
+textarea{
+  @apply
+  bg-[#F9FBFC] border-2 border-solid border-gray-800 rounded-sm shadow-InputSearch text-[#1E1E1F] text-xl p-3 h-24 w-11/12 mt-7
+
+  placeholder:text-[#A5A5A5] placeholder:font-Montserrat placeholder:font-normal
+
+  focus:outline-none focus:border-[#61DAFA]
+}
+.TodoForm-buttonContainer {
+  @apply
+  mt-4 flex justify-center items-center w-full
+}
+
+.TodoForm-button {
+  @apply
+  cursor-pointer inline-block text-xl text-[#202329] font-normal w-32 h-12 rounded-sm border-none font-Montserrat
+}
+
+.TodoForm-button--add {
+  @apply
+  bg-[#61DAFA] shadow-BtnModal
+}
+
+.TodoForm-button--cancel {
+  @apply
+  bg-transparent
+}
+
+.verCompletedTodos{
+  @apply
+  p-1 text-white rounded-full
+  /* hover:bg-blue-700 hover:shadow-lg shadow-md 
+  focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 
+  active:bg-blue-800 active:shadow-lg  */
+}
+
+.iconCompletedTodos{
+  @apply
+  h-8 w-8 text-[#61DAFA] transition duration-150 ease-in-out
+  hover:text-teal-300
+  active:text-teal-300
+}
+/*form {
+  width: 90%;
+  max-width: 300px;
+  background-color: #ffff;
+  padding: 33px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+label {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  color: #1E1E1F;
+  margin-bottom: 26px;
+}
+
+textarea {
+  background-color: #F9FBFC;
+  border: 2px solid #202329;
+  border-radius: 2px;
+  box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.25);
+  color: #1E1E1F;
+  font-size: 20px;
+  text-align: center;
+  padding: 12px;
+  height: 96px;
+  width: calc(100% - 25px);
+}
+
+textarea::placeholder {
+  color: #A5A5A5;
+  font-family: 'Montserrat';
+  font-weight: 400;
+}
+
+textarea:focus {
+  outline-color: #61DAFA;
+}
+
+.TodoForm-buttonContainer {
+  margin-top: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.TodoForm-button {
+  cursor: pointer;
+  display: inline-block;
+  font-size: 20px;
+  color: #202329;
+  font-weight: 400;
+  width: 120px;
+  height: 48px;
+  border-radius: 2px;
+  border: none;
+  font-family: 'Montserrat';
+}
+
+.TodoForm-button--add {
+  background: #61DAFA;
+  box-shadow: 0px 5px 25px rgba(97, 218, 250, 0.5);
+}
+
+.TodoForm-button--cancel {
+  background: transparent;
+} */
