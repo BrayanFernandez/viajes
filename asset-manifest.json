@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/viajes/static/css/main.4aa716db.css",
+    "main.js": "/viajes/static/js/main.1a6a38b8.js",
+    "static/media/Montserrat.ttf": "/viajes/static/media/Montserrat.ceb11275ab638627a643.ttf",
+    "static/media/JamesStroker.ttf": "/viajes/static/media/JamesStroker.8211da969bdd010821d4.ttf",
+    "static/media/fondo.jpg": "/viajes/static/media/fondo.b5f42cd12e8fb0ebb46d.jpg",
+    "static/media/OnePieceFont.ttf": "/viajes/static/media/OnePieceFont.951ce8e89b9138e6d37a.ttf",
+    "index.html": "/viajes/index.html",
+    "main.4aa716db.css.map": "/viajes/static/css/main.4aa716db.css.map",
+    "main.1a6a38b8.js.map": "/viajes/static/js/main.1a6a38b8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4aa716db.css",
+    "static/js/main.1a6a38b8.js"
+  ]
+}
